@@ -1,0 +1,12 @@
+{
+  "ControlID": "xxxxxx", //控件id
+  "ControlType": "input", //控件类型
+  "ControlValue": "", // 控件值
+  "DefaultValue": "", // 默认值
+  "Props": [], // 属性值
+  "Options": null, // select的options数据源
+  "Placeholder": "", // 占位提示文字
+  "ReadOnly": false, // 只读
+  "Required": false, // 必填
+  "LabelName": "xxx" // 控件labelName
+}

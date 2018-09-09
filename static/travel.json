@@ -1,0 +1,252 @@
+{
+  "baseInfo": [
+    {
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "maxwell",
+      "Props": [],
+      "Options": [{"label": "maxwell", "value": "maxwell"}, {"label": "apple", "value": "apple"}],
+      "Placeholder": "请选择报销人公司",
+      "ReadOnly": true,
+      "Required": true,
+      "LabelName": "报销人公司"
+    },{
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "研发部",
+      "Props": [],
+      "Options": [{"label": "研发部", "value": "研发部"}, {"label": "财务部", "value": "财务部"}],
+      "Placeholder": "请选择报销人公司",
+      "ReadOnly": true,
+      "Required": true,
+      "LabelName": "报销人部门"
+    },{
+      "ControlID": "00001",
+      "ControlType": "input",
+      "ControlValue": "",
+      "DefaultValue": "研发部分组1",
+      "Props": [],
+      "Options": null,
+      "Placeholder": "请输入报销人组别",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "报销人组别"
+    },{
+      "ControlID": "00001",
+      "ControlType": "input",
+      "ControlValue": "",
+      "DefaultValue": "张翔",
+      "Props": [],
+      "Options": null,
+      "Placeholder": "请选择报销人姓名",
+      "ReadOnly": true,
+      "Required": true,
+      "LabelName": "报销人姓名"
+    },{
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "maxwell",
+      "Props": [],
+      "Options": [{"label": "maxwell", "value": "maxwell"}, {"label": "apple", "value": "apple"}],
+      "Placeholder": "请选择费用所属单位",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "费用所属单位"
+    },{
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "研发部",
+      "Props": [],
+      "Options": [{"label": "研发部", "value": "研发部"}, {"label": "财务部", "value": "财务部"}],
+      "Placeholder": "请选择费用所属部门",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "费用所属部门"
+    },{
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "",
+      "Props": [],
+      "Options": [{"label": "招商银行", "value": "招商银行"}, {"label": "邮政银行", "value": "邮政银行"}],
+      "Placeholder": "请选择收款银行",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "收款银行"
+    },{
+      "ControlID": "00001",
+      "ControlType": "select",
+      "ControlValue": "",
+      "DefaultValue": "",
+      "Props": [],
+      "Options": [{"label": "招商银行a支行", "value": "招商银行a支行"}, {"label": "招商银行b支行", "value": "招商银行b支行"}],
+      "Placeholder": "请选择收款支行",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "收款支行"
+    },{
+      "ControlID": "00001",
+      "ControlType": "input",
+      "ControlValue": "",
+      "DefaultValue": "",
+      "Props": [],
+      "Options": null,
+      "Placeholder": "请输入收款开户名",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "收款开户名"
+    },{
+      "ControlID": "00001",
+      "ControlType": "input",
+      "ControlValue": "",
+      "DefaultValue": "",
+      "Props": [],
+      "Options": null,
+      "Placeholder": "请输入收款账号",
+      "ReadOnly": false,
+      "Required": true,
+      "LabelName": "收款账号"
+    }
+  ],
+  "childTemple": {
+    "加班打车": [
+      {
+        "ControlID": "00001",
+        "ControlType": "input",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请输入事由",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "事由"
+      },{
+        "ControlID": "00002",
+        "ControlType": "input",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请输入金额",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "金额（元）"
+      },{
+        "ControlID": "00003",
+        "ControlType": "select",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": [{"label": "到票", "value": "到票"}, {"label": "到票", "value": "到票"}],
+        "Placeholder": "请选择是否到票",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "是否到票"
+      },{
+        "ControlID": "00004",
+        "ControlType": "select",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": [{"label": "普通发票", "value": "普通发票"}, {"label": "增值税专用发票", "value": "增值税专用发票"}, {"label": "其他", "value": "其他"}],
+        "Placeholder": "请选择发票类型",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "发票类型"
+      },{
+        "ControlID": "00003",
+        "ControlType": "select",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": [{"label": "零税率", "value": "零税率"}, {"label": "3%", "value": "3%"}],
+        "Placeholder": "请选择发票税率",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "发票税率"
+      },{
+        "ControlID": "00003",
+        "ControlType": "input",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请输入发票张数",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "发票张数"
+      },{
+        "ControlID": "00003",
+        "ControlType": "select",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": [{"label": "到货/收到服务", "value": "到货/收到服务"}, {"label": "未到货/未收到服务", "value": "未到货/未收到服务"}],
+        "Placeholder": "请输入事由",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "是否到货/收到服务"
+      },{
+        "ControlID": "00003",
+        "ControlType": "datetime",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请选择开始时间",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "开始时间"
+      },{
+        "ControlID": "00003",
+        "ControlType": "datetime",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请选择结束时间",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "结束时间"
+      },{
+        "ControlID": "00003",
+        "ControlType": "input",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请输入出发地",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "出发地"
+      },{
+        "ControlID": "00003",
+        "ControlType": "input",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "请输入目的地",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "目的地"
+      },{
+        "ControlID": "00003",
+        "ControlType": "upload",
+        "ControlValue": "",
+        "DefaultValue": "",
+        "Props": [],
+        "Options": null,
+        "Placeholder": "上传附件",
+        "ReadOnly": false,
+        "Required": true,
+        "LabelName": "上传附件"
+      }
+    ]
+  }
+}

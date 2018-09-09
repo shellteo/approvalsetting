@@ -2,11 +2,11 @@
   <el-container>
     <el-header class="start-approval-header">
       <el-radio-group v-model="currentApproval" size="small">
+        <el-radio-button label="差旅报销单">差旅报销单</el-radio-button>
         <el-radio-button label="暂支单">暂支单</el-radio-button>
         <el-radio-button label="还款单">还款单</el-radio-button>
         <el-radio-button label="用款申请单">用款申请单</el-radio-button>
         <el-radio-button label="费用报销单">费用报销单</el-radio-button>
-        <el-radio-button label="差旅报销单">差旅报销单</el-radio-button>
       </el-radio-group>
     </el-header>
     <el-main class="startApproval">
@@ -53,6 +53,7 @@
 
 <script>
 import BaseInfo from '@/components/startApproval/BaseInfo'
+import {getAll} from '../apis/index'
 export default {
   name: 'StartApproval',
   data () {
@@ -70,6 +71,11 @@ export default {
     addBudgetDetail () {
       this.dialogVisible = true
     }
+  },
+  mounted () {
+    getAll().then((res) => {
+      console.log(JSON.parse(res.data))
+    })
   }
 }
 </script>
