@@ -5,6 +5,8 @@ import startApproval from '@/pages/StartApproval'
 import approvalList from '@/pages/ApprovalList'
 import approvalSetting from '@/pages/ApprovalSetting'
 import approvalDetail from '@/pages/ApprovalDetail'
+import approvalFormConfig from '@/pages/ApprovalFormConfig'
+import flowChartConfig from '@/pages/FlowChartConfig'
 
 Vue.use(Router)
 
@@ -38,6 +40,16 @@ export default new Router({
       path: '/approvalDetail',
       name: 'approvalDetail',
       component: approvalDetail
+    },
+    {
+      path: '/approvalFormConfig',
+      name: 'approvalFormConfig',
+      component: approvalFormConfig
+    },
+    {
+      path: '/flowChartConfig',
+      name: 'flowChartConfig',
+      component: flowChartConfig
     }
   ]
 })

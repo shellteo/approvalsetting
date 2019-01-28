@@ -40,10 +40,20 @@ export default {
           icon: 'file-invoice',
           link: 'approvalList'
         },
-        {
+        /*{
           title: '审批配置',
           icon: 'file-invoice',
           link: 'approvalSetting'
+        },*/
+        {
+          title: '审批表单配置',
+          icon: 'file-invoice',
+          link: 'approvalFormConfig'
+        },
+        {
+          title: '流程图配置',
+          icon: 'file-invoice',
+          link: 'flowChartConfig'
         }
       ]
     }
@@ -66,7 +76,7 @@ export default {
   .card-box {
     background-color: #ffffff;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-    height: 300px;
+    height: 400px;
   }
   ul {
     padding: 10px 0 30px 0;

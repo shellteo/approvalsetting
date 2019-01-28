@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@antv/g6-editor@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@antv/g6-editor/-/g6-editor-1.2.0.tgz#2e46246fad8b4024b42ff21c4e9f248657108e48"
+
 "@antv/g6@^1.2.8":
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/@antv/g6/-/g6-1.2.8.tgz#ea1fe2d1be1b64fb7bf949a788117ff7769025a8"
